@@ -1,0 +1,108 @@
+/* General styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #FFF5FD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* App container */
+.todo-container {
+  background: #ffe7f1;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 400px;
+  height: auto;
+}
+
+/* Task input */
+.task-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.task-input input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.task-input button {
+  background: #ee73ee;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.task-input button:hover {
+  background: #d464d4;
+}
+
+/* Task list */
+.task-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-item span {
+  flex: 1;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.task-item .completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* Task buttons */
+.task-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.complete-btn{
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.complete-btn {
+  background: #008cba;
+  color: white;
+}
+
+.complete-btn:hover {
+  background: #0073a6;
+}A
+
+/* No tasks message */
+.no-tasks {
+  font-size: 14px;
+  color: gray;
+  margin-top: 10px;
+}
