@@ -1,6 +1,6 @@
 import React from 'react';
 
-function TaskItem({ task, toggleTaskCompletion, deleteTask }) {
+function TaskItem({ task, toggleTaskCompletion }) {
   return (
     <li className="task-item">
       <span className={task.completed ? 'completed' : ''} onClick={toggleTaskCompletion}>
